@@ -1,0 +1,135 @@
+body {
+    background-color: #152238;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    color: #ffff;
+    user-select: none;
+}
+
+h1 {
+    font-size: 80px;
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+img {
+    width: 35px;
+    height: 25px;
+}
+
+.bg {
+    background: rgba(255, 255, 255, 0.13);
+    border-radius: 2px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(4.3px);
+    -webkit-backdrop-filter: blur(4.3px);
+    border: 1px solid rgba(255, 255, 255, 0.39);
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.col {
+    width: 125px;
+    margin: 10px 10px;
+}
+
+.clock {
+    padding: 10px 20px;
+    font-size: 70px;
+}
+
+.up,
+.down,
+.names {
+    margin: 0 22px;
+}
+
+.up:hover {
+    opacity: 0.5;
+}
+
+.down:hover {
+    opacity: 0.5;
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+    padding: 5px 30px;
+    font-size: 20px;
+    margin: 0 15px;
+    cursor: pointer;
+    margin: 30px 25px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.start {
+    color: green;
+    background-color: transparent;
+    border-color: green;
+    display: none;
+}
+
+.stop {
+    color: red;
+    background-color: transparent;
+    border-color: red;
+    display: none;
+}
+
+.restart {
+    color: white;
+    background: rgb(17, 17, 197);
+    border: none;
+    padding: 5px 20px;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
+
+.audio {
+    font-size: 15px;
+}
+
+.copyright {
+    font-size: 13px;
+    margin-top: 90px;
+}
+
+.copyright:hover {
+    font-weight: 500;
+
+}
+
+@media (max-width:500px) {
+    .clock {
+        padding: 10px 10px;
+    }
+
+    .copyright {
+        margin-top: 185px;
+    }
+
+    .btn {
+        margin: 30px 20px;
+    }
+}

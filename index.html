@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Images/logo.png">
+    <title>Countdown</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1>TIMER</h1>
+    <div class="row">
+        <div class="col names">
+            <p>Hours</p>
+        </div>
+        <div class="col names">
+            <p>Minutes</p>
+        </div>
+        <div class="col names">
+            <p>Seconds</p>
+        </div>
+    </div>
+    <div class="row increment">
+        <button class="col up bg in-Hrs disp"><img src="Images/upward-arrow.png" alt=""></button>
+        <button class="col up bg in-Min disp"><img src="Images/upward-arrow.png" alt=""></button>
+        <button class="col up bg in-Sec disp"><img src="Images/upward-arrow.png" alt=""></button>
+    </div>
+    <div class="row clock">
+        <div class="col min bg">
+            <h3 id="hrs">00</h3>
+        </div>
+        <h3 class="divide">:</h3>
+        <div class="col sec bg">
+            <h3 id="min">00</h3>
+        </div>
+        <h3 class="divide">:</h3>
+        <div class="col msec bg">
+            <h3 id="sec">00</h3>
+        </div>
+    </div>
+    <div class="row decrement">
+        <button class="col down bg dec-Hrs disp"><img src="Images/downward-arrow.png" alt=""></button>
+        <button class="col down bg dec-Min disp"><img src="Images/downward-arrow.png" alt=""></button>
+        <button class="col down bg dec-Sec disp"><img src="Images/downward-arrow.png" alt=""></button>
+    </div>
+    <button class="btn start toggle" id="Start">Start</button>
+    <button class="btn stop toggle" id="Stop">Stop</button>
+    <button class="btn restart disp" id="Restart">Restart</button>
+    <div class="audio">
+        <input class="audiocheckBox" type="checkbox">
+        Alert On End
+    </div>
+    <footer>
+        <p class="copyright"><a href="https://ramprasadmanna.github.io/Mock-Portfolio/" target="_blank">© Ramprasad</a>
+        </p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
